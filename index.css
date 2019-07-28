@@ -1,0 +1,104 @@
+body {
+  background: #f9f3ec;
+  font-family: font-family: 'Nunito', sans-serif;
+  color: #60204b;
+}
+
+#heading {
+  position: relative;
+  top: 80px;
+  height: 600px;
+  background: url("images/kris-wu-2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#heading p {
+  position: relative;
+  top: 650px;
+  text-align: justify;
+  line-height: 2;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+#mainNavbar .nav-link {
+  color: #60204b;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #af0404;
+}
+
+#mainNavbar .navbar-brand {
+  color: #af0404;
+  font-size: 3rem;
+  font-weight: 400;
+  font-family: monospace;
+}
+#mainNavbar.scrolled{
+  background-color: rgba(96, 32, 75, 0.3);
+  transition: background 1s;
+}
+
+#albums {
+  position: relative;
+  top: 700px;
+}
+.albums-name span {
+  color: lightgrey;
+}
+
+.albums-name {
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+
+.albums-img {
+  width: 400px;
+  height: 400px;
+  box-shadow: 3px 3px 5px 13px black;
+  box-shadow: 5px 5px 30px 10px grey;
+}
+
+#alive-tour {
+  position: relative;
+  top: 950px;
+}
+#alive-tour .ext-line {
+  border: 3px solid #252525;
+  border-radius: 10%;
+  padding: 10px;
+
+  box-shadow: 3px 3px 10px 3px #60204b;
+}
+
+#alive-tour .in-line {
+  border: 1px solid #414141;
+  border-radius: 10%;
+  padding: 20px;
+  background: #f9f3ec;
+}
+
+#alive-tour .tour-img {
+  border-radius: 12% height: 156px;
+}
+
+#footer {
+  position: relative;
+  top: 1200px;
+}
+#footer span{
+  font-weight: 500;
+}
+
+@media (max-width: 1200px) {
+  .albums-name {
+    font-weight: 100;
+    font-size: 1rem;
+  }
+}
